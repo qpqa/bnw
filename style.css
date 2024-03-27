@@ -8,12 +8,21 @@
 img{
    height: 415px;
    border-radius: 30px;
+   transition: transform 0.3s ease;
+}
+img:hover{
+   transform: scale(1.2);
 }
 .avto{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: center;
    color: rgb(150, 150, 150);
    font-size: large;
+   transition: transform 0.3s ease;
+}
+.avto:hover {
+transform: scale(1.2);
+color: white;
 }
 td{
    text-align: center;
